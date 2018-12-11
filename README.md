@@ -1,4 +1,4 @@
-Coursework project for 'ADAPTIVE WEB DESIGN' course at University of Economics - Varna.
+# Coursework project for 'ADAPTIVE WEB DESIGN' course at University of Economics - Varna.
 
 Prepared by:
 

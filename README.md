@@ -1,6 +1,6 @@
 # Coursework project for 'ADAPTIVE WEB DESIGN' course at University of Economics - Varna.
 
-Prepared by:
+## Prepared by:
 
 Yordan Yordanov
 
@@ -8,8 +8,8 @@ group 39
 
 F.№114452
 
-Academics:
+## Academics:
 
-Chief Assoc. Prof. Dr. Radka V. Nacheva
+### Chief Assoc. Prof. Dr. Radka V. Nacheva
 
-Assoc. Prof. Dr. Boris Bankov
+### Assoc. Prof. Dr. Boris Bankov

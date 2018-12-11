@@ -1,5 +1,7 @@
 # Coursework project for 'ADAPTIVE WEB DESIGN' course at University of Economics - Varna.
 
+Used technologies: HTML5, CSS 3, JavaScript, Bootstrap 4, jQuery 3.1
+
 ## Prepared by:
 
 Yordan Yordanov

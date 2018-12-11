@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PlayON Store</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game Store">
+    <meta name="keywords" content="video, games, ‎PlayStation, ‎Xbox, pc, android, ios ">
+    <meta name="author" content="Yordan Yordanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/profile.css" type="text/css">
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-warning">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">PlayON Store</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.html">All Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link">||</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profile.html">User Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="AdminDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Admin
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./admin-games.html">Games</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+
+                        <div class="card-body">
+                            <div class="card-title mb-4">
+                                <div class="d-flex justify-content-start">
+                                    <div class="image-container">
+                                        <img src="http://placehold.it/150x150" id="imgProfile" style="width: 150px; height: 150px"
+                                            class="img-thumbnail" />
+                                        <div class="middle">
+                                            <input type="button" class="btn btn-secondary" id="btnChangePicture" value="Change" />
+                                            <input type="file" style="display: none;" id="profilePicture" name="file" />
+                                        </div>
+                                    </div>
+                                    <div class="userData ml-3">
+                                        <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold">
+                                            <a href="javascript:void(0);">
+                                                Yordan Yordanov
+                                            </a>
+                                        </h2>
+                                        <h6 class="d-block"><a href="javascript:void(0)">1,500</a> Purchased games</h6>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo"
+                                                role="tab" aria-controls="basicInfo" aria-selected="true">Basic Info</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" id="connectedServices-tab" data-toggle="tab" href="#connectedServices"
+                                                role="tab" aria-controls="connectedServices" aria-selected="false">Connected
+                                                Services</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content ml-1" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="basicInfo" role="tabpanel"
+                                            aria-labelledby="basicInfo-tab">
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Full Name</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Yordan Yordanov
+                                                </div>
+                                            </div>
+                                            <hr />
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Birth Date</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    October 30, 1995.
+                                                </div>
+                                            </div>
+                                            <hr />
+
+
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                            <div class="row">
+                                                <div class="col-sm-3 col-md-2 col-5">
+                                                    <label style="font-weight:bold;">Something</label>
+                                                </div>
+                                                <div class="col-md-8 col-6">
+                                                    Something
+                                                </div>
+                                            </div>
+                                            <hr />
+                                        </div>
+                                        <div class="tab-pane fade" id="connectedServices" role="tabpanel"
+                                            aria-labelledby="ConnectedServices-tab">
+                                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fplayonvarna%2Fposts%2F2133679293626159%3A0&width=500"
+                                                width="500" height="644" style="border:none;overflow:hidden" scrolling="no"
+                                                frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fplayonvarna%2Fposts%2F2158232177837537&width=500"
+                                                width="500" height="688" style="border:none;overflow:hidden" scrolling="no"
+                                                frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <hr>
+        <div class="container blockquote-footer">
+            <p class="text-center">
+                © Yordan Yordanov / F.№ 114452 / Group 37 / Mobile & Web Technologies / Year 2018 - 2019
+            </p>
+            <p class="text-center">
+                Sitemap:
+            </p>
+            <p class="text-center">
+                <a href="./add-game.html">Add Game</a> |
+                <a href="./admin-games.html">Game Register</a> |
+                <a href="./contact.html">Contact Us</a> |
+                <a href="./delete-game.html">Delete Game</a> |
+                <a href="./edit-game.html">Edit Game</a> |
+                <a href="./game-details.html">Game Details</a> |
+                <a href="./home.html">All Games</a> |
+                <a href="./index.html">Home Page</a> |
+                <a href="./login.html">Login</a> |
+                <a href="./news.html">Upcoming Events</a> |
+                <a href="./register.html">Register</a> |
+                <a href="./profile.html">User Profile</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="./scripts/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/profile.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PlayON Store</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game Store">
+    <meta name="keywords" content="video, games, ‎PlayStation, ‎Xbox, pc, android, ios ">
+    <meta name="author" content="Yordan Yordanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-warning">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">PlayON Store</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="col-4 offset-4 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1 class="display-3">Login</h1>
+                    </div>
+                    <br />
+                    <form role="form" method="post" id="login-form" autocomplete="off">
+                        <div class="form-group row">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="somebody@example.com" />
+                        </div>
+                        <div class="form-group row">
+                            <label for="key" class="sr-only">Password</label>
+                            <input type="password" id="key" class="form-control" placeholder="Password" />
+                        </div>
+                        <input type="submit" id="btn-login" class="btn btn-outline-warning btn-lg btn-block" value="Login" />
+                    </form>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </main>
+    <br />
+    <!--Footer-->
+    <footer>
+        <hr>
+        <div class="container blockquote-footer">
+            <p class="text-center">
+                © Yordan Yordanov / F.№ 114452 / Group 37 / Mobile & Web Technologies / Year 2018 - 2019
+            </p>
+            <p class="text-center">
+                Sitemap:
+            </p>
+            <p class="text-center">
+                <a href="./add-game.html">Add Game</a> |
+                <a href="./admin-games.html">Game Register</a> |
+                <a href="./contact.html">Contact Us</a> |
+                <a href="./delete-game.html">Delete Game</a> |
+                <a href="./edit-game.html">Edit Game</a> |
+                <a href="./game-details.html">Game Details</a> |
+                <a href="./home.html">All Games</a> |
+                <a href="./index.html">Home Page</a> |
+                <a href="./login.html">Login</a> |
+                <a href="./news.html">Upcoming Events</a> |
+                <a href="./register.html">Register</a> |
+                <a href="./profile.html">User Profile</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="./scripts/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

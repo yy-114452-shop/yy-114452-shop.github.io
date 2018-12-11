@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PlayON Store</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game Store">
+    <meta name="keywords" content="video, games, ‎PlayStation, ‎Xbox, pc, android, ios ">
+    <meta name="author" content="Yordan Yordanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/site.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-warning">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">PlayON Store</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.html">All Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link">||</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profile.html">User Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="AdminDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Admin
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./admin-games.html">Games</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <h2 class="m-1">All Games &ndash;&nbsp;</h2> <a href="./add-game.html" class="btn btn-warning m-1"><strong>+</strong>
+                    Add
+                    Game</a>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Size</th>
+                            <th>Price</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Serious Sam 3: BFE</td>
+                            <td>10.10 GB</td>
+                            <td>22.00 &euro;</td>
+                            <td>
+                                <a href="./edit-game.html" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="./delete-game.html" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tomb Raider</td>
+                            <td>32.00 GB</td>
+                            <td>19.99 &euro;</td>
+                            <td>
+                                <a href="#" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Witcher 3: Wild Hunt</td>
+                            <td>48.00 GB</td>
+                            <td>39.99 &euro;</td>
+                            <td>
+                                <a href="#" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Saints Row The Third</td>
+                            <td>18.00 GB</td>
+                            <td>13.25 &euro;</td>
+                            <td>
+                                <a href="#" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mass Effect Andromeda</td>
+                            <td>70.00 GB</td>
+                            <td>79.99 &euro;</td>
+                            <td>
+                                <a href="#" class="btn btn-warning btn-sm">Edit</a>
+                                <a href="#" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <hr>
+        <div class="container blockquote-footer">
+            <p class="text-center">
+                © Yordan Yordanov / F.№ 114452 / Group 37 / Mobile & Web Technologies / Year 2018 - 2019
+            </p>
+            <p class="text-center">
+                Sitemap:
+            </p>
+            <p class="text-center">
+                <a href="./add-game.html">Add Game</a> |
+                <a href="./admin-games.html">Game Register</a> |
+                <a href="./contact.html">Contact Us</a> |
+                <a href="./delete-game.html">Delete Game</a> |
+                <a href="./edit-game.html">Edit Game</a> |
+                <a href="./game-details.html">Game Details</a> |
+                <a href="./home.html">All Games</a> |
+                <a href="./index.html">Home Page</a> |
+                <a href="./login.html">Login</a> |
+                <a href="./news.html">Upcoming Events</a> |
+                <a href="./register.html">Register</a> |
+                <a href="./profile.html">User Profile</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="./scripts/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

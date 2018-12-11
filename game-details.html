@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>PlayON Store</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Game Store">
+    <meta name="keywords" content="video, games, ‎PlayStation, ‎Xbox, pc, android, ios ">
+    <meta name="author" content="Yordan Yordanov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+        <div class="rg-image-wrapper">
+            {{if itemsCount > 1}}
+            <div class="rg-image-nav">
+                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                <a href="#" class="rg-image-nav-next">Next Image</a>
+            </div>
+            {{/if}}
+            <div class="rg-image"></div>
+            <div class="rg-loading"></div>
+            <div class="rg-caption-wrapper">
+                <div class="rg-caption" style="display:none;">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-toggleable-md navbar-light bg-warning">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">PlayON Store</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.html">All Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link">||</span>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./profile.html">User Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="http://example.com" id="AdminDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Admin
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="./admin-games.html">Games</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-3">Serious Sam 3: BFE</h1>
+                    <br />
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jzg9aEb2vuY" frameborder="0"
+                        allowfullscreen></iframe>
+                    <br />
+                    <br />
+                    <p>Serious Sam 3: BFE is a first-person action shooter, a glorious throwback to the golden age of
+                        first-person
+                        shooters where men were men, cover was for amateurs and pulling the trigger made things go
+                        boom.
+                        Serving as a prequel to the original indie and Game of the Year sensation, Serious Sam: The
+                        First
+                        Encounter, Serious Sam 3 takes place during the Earth’s final struggle against Mental’s
+                        invading
+                        legions of beasts and mercenaries.</p>
+                    <p><strong>Price</strong> - 22.00&euro;</p>
+                    <p><strong>Size</strong> - 10.10 GB</p>
+                    <p><strong>Release Date</strong> - 11/22/2011 12:00:00 AM</p>
+                    <a class="btn btn-outline-primary" name="back" href="./home.html">Back</a>
+                    <form action="#" method="post">
+                        <input type="number" value="2" hidden="hidden" />
+                        <br />
+                        <input type="submit" class="btn btn-success" value="Buy" />
+                    </form>
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </main>
+    <h1 style="text-align: center;"> Gallery</h1>
+    <div class="content">
+        <div id="rg-gallery" class="rg-gallery">
+            <div class="rg-thumbs">
+                <!-- Elastislide Carousel Thumbnail Viewer -->
+                <div class="es-carousel-wrapper">
+                    <div class="es-nav">
+                        <span class="es-nav-prev">Previous</span>
+                        <span class="es-nav-next">Next</span>
+                    </div>
+                    <div class="es-carousel">
+                        <ul>
+                            <li><a href="#"><img src="./img/serious-sam-3-bfe-screenshot.jpg" data-large="./img/serious-sam-3-bfe-screenshot.jpg"
+                                        alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
+                            <li><a href="#"><img src="./img/serious-sam-3-bfe-screenshot2.jpg" data-large="./img/serious-sam-3-bfe-screenshot2.jpg"
+                                        alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
+                            <li><a href="#"><img src="./img/serious-sam-3-bfe-screenshot3.jpg" data-large="./img/serious-sam-3-bfe-screenshot3.jpg"
+                                        alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Elastislide Carousel Thumbnail Viewer -->
+            </div><!-- rg-thumbs -->
+        </div><!-- rg-gallery -->
+    </div><!-- content -->
+    </div><!-- container -->
+    <!--Footer-->
+    <footer>
+        <hr>
+        <div class="container blockquote-footer">
+            <p class="text-center">
+                © Yordan Yordanov / F.№ 114452 / Group 37 / Mobile & Web Technologies / Year 2018 - 2019
+            </p>
+            <p class="text-center">
+                Sitemap:
+            </p>
+            <p class="text-center">
+                <a href="./add-game.html">Add Game</a> |
+                <a href="./admin-games.html">Game Register</a> |
+                <a href="./contact.html">Contact Us</a> |
+                <a href="./delete-game.html">Delete Game</a> |
+                <a href="./edit-game.html">Edit Game</a> |
+                <a href="./game-details.html">Game Details</a> |
+                <a href="./home.html">All Games</a> |
+                <a href="./index.html">Home Page</a> |
+                <a href="./login.html">Login</a> |
+                <a href="./news.html">Upcoming Events</a> |
+                <a href="./register.html">Register</a> |
+                <a href="./profile.html">User Profile</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="./scripts/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+</body>
+
+</html>
